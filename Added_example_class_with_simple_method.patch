@@ -1,0 +1,17 @@
+Subject: [PATCH] Added example class with simple method
+---
+Index: src/Example.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Example.java b/src/Example.java
+new file mode 100644
+--- /dev/null	(revision 62aed572f5ed1073f76fe53977046d5454c49d7e)
++++ b/src/Example.java	(revision 62aed572f5ed1073f76fe53977046d5454c49d7e)
+@@ -0,0 +1,5 @@
++public class Example {
++    public void show() {
++        System.out.println("Simple method in Example class");
++    }
++}
